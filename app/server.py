@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1Y9XqIQoFUXaEwS5y-glM8ZbkjPTuyfOq?alt=media&key=AIzaSyDAXI3_azEH0e6u9Qb-2RqtFdgLorKXH-E'
 export_file_name = 'export.pkl'
 
-classes = ['broccoli', 'mushroom', 'onions', 'tomato', 'vegetables', 'zucchini']
+classes = ['broccoli', 'mushroom', 'onions', 'tomato', 'zucchini']
 path = Path(__file__).parent
 
 app = Starlette()
